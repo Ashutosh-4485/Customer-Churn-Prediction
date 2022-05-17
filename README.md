@@ -13,6 +13,14 @@ The data set includes information about:
 3. Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
 4. Demographic info about customers – gender, age range, and if they have partners and dependents
 
+**Libraries**
+1. Pandas
+2. Numpy
+3. Matplotlib
+4. sklearn
+5. seaborn
+6. tensorflow
+
 **Data Preprocessing **
 1. Dropped unwanted columns
 2. Converted all data types to int or float.
@@ -45,5 +53,5 @@ Synthetic Minority Oversampling Technique or SMOTE is another technique to overs
 **Conclusion **
 
 After applying SMOTE, I trained the model on 
-XGBoostClassifier, ANN (with 3 hidden layers over 100 epochs) and SGDClassifier, XGBoost has given the best accuracy.
+XGBoostClassifier, ANN (with 3 hidden layers over 100 epochs) and SGDClassifier, XGBoost has given the best accuracy of 82%.
 
