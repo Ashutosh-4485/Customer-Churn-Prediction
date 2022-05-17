@@ -42,4 +42,8 @@ I have used SMOTE technique
  
 Synthetic Minority Oversampling Technique or SMOTE is another technique to oversample the minority class. Simply adding duplicate records of minority class often don’t add any new information to the model. In SMOTE new instances are synthesized from the existing data. If we explain it in simple words, SMOTE looks into minority class instances and use k nearest neighbor to select a random nearest neighbor, and a synthetic instance is created randomly in feature space.
 
-After applying SMOTE, I trained the model on XGBoostClassifier, Neural Network and
+**Conclusion **
+
+After applying SMOTE, I trained the model on 
+XGBoostClassifier, ANN (with 3 hidden layers over 100 epochs) and SGDClassifier, XGBoost has given the best accuracy.
+
